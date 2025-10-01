@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pricing Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <main class="pricing-wrapper" aria-labelledby="pricing-title">
+
+    <header class="pricing-header">
+      <h1 id="pricing-title">Pricing plans</h1>
+      <p class="pricing-sub">Simple, predictable pricing for teams of any size.</p>
+    </header>
+
+   
+    <section class="pricing-grid" role="list">
+     
+      <article class="plan" role="listitem" aria-labelledby="plan-personal">
+       
+        <img class="plan-img" src="images/s.jpg" alt="Personal plan illustration" />
+        <h2 id="plan-personal" class="plan-title">Personal</h2>
+
+        <p class="plan-price" aria-hidden="false">
+          <span class="plan-amount" data-month="$0" data-year="$0">$0</span>
+          <small class="plan-period">/month</small>
+        </p>
+
+        <ul class="plan-features">
+          <li>Custom domains</li>
+          <li>Community support</li>
+          <li>Basic analytics</li>
+        </ul>
+
+        <footer class="plan-actions">
+          <a class="btn btn-primary" href="#signup-personal">Sign up</a>
+          <a class="btn btn-link" href="#learn-personal">Learn more</a>
+        </footer>
+      </article>
+
+     
+      <article class="plan plan--featured" role="listitem" aria-labelledby="plan-team">
+        <div class="plan-badge" aria-hidden="true">Popular</div>
+        <img class="plan-img" src="images/single.png" alt="Team plan illustration" />
+        <h2 id="plan-team" class="plan-title">Small Team</h2>
+
+        <p class="plan-price">
+          <span class="plan-amount" data-month="$15" data-year="$144">$15</span>
+          <small class="plan-period">/month</small>
+        </p>
+
+        <ul class="plan-features">
+          <li>Unlimited projects</li>
+          <li>Team access & roles</li>
+          <li>Priority email support</li>
+        </ul>
+
+        <footer class="plan-actions">
+          <a class="btn btn-primary" href="#signup-team">Start free trial</a>
+          <a class="btn btn-link" href="#contact-sales">Contact sales</a>
+        </footer>
+      </article>
+
+      
+      <article class="plan" role="listitem" aria-labelledby="plan-enterprise">
+        <img class="plan-img" src="images/stone.jpg" alt="Enterprise plan illustration" />
+        <h2 id="plan-enterprise" class="plan-title">Enterprise</h2>
+
+        <p class="plan-price">
+          <span class="plan-amount" data-month="$400" data-year="$3840">$400</span>
+          <small class="plan-period">/month</small>
+        </p>
+
+        <ul class="plan-features">
+          <li>Dedicated account manager</li>
+          <li>Single sign-on (SSO)</li>
+          <li>Custom SLA & onboarding</li>
+        </ul>
+
+        <footer class="plan-actions">
+          <a class="btn btn-primary" href="#contact-enterprise">Contact sales</a>
+          <a class="btn btn-link" href="#enterprise-details">See details</a>
+        </footer>
+      </article>
+    </section>
+
+
+  </main>
+</body>
+</html>
