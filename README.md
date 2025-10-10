@@ -5,9 +5,6 @@ This project demonstrates clean layout, responsive design, and hover effects for
 
 ---
 
-## 🌍 Live Demo
-🔗 [View Project on GitHub Pages](https://mujib77.github.io/pricing-panel/) 
-
 ## 🚀 Features
 - 📱 Responsive grid (adapts from desktop → mobile)  
 - 🎨 Clean card design with hover effects  
